@@ -13,6 +13,12 @@
 	top:300px;
 	left:30px;
 }
+#login_form{
+	display:none;
+}
+#register_form{
+
+}
 .login_ipt{
 	position: relative;
 	width:280px;
@@ -59,21 +65,13 @@ input{
 	top:170px;
 	left:20px;
 	height:80px;
-	background: url("../img/login/login_tab.png");
-}
-#login_tab:hover{
-	height:80px;
 	background: url("../img/login/login_tab2.png");
 }
 #register_tab{
-	height:60px;
-	top:220px;
+	height:80px;
+	top:200px;
 	left:110px;
 	background: url("../img/login/login_tab.png");
-}
-#register_tab:hover{
-	height:80px;
-	background: url("../img/login/login_tab2.png");
 }
 #loginBtn{
 	height:45px;
@@ -82,10 +80,4 @@ input{
 	border: none;
 	padding: 0;
 	background: url("../img/login/login.png");
-}
-#loginBtn:hover{
-	background: url("../img/login/login_hover.png");
-}
-#loginBtn:active{
-	background: url("../img/login/login_BTdown.png");
 }

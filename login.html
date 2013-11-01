@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="css/login.css">
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type='text/javascript' src='./js/jquery.transit.min.js'></script>
     <script type="text/javascript" src="js/login.js"></script>
   </head>
 
@@ -16,7 +17,7 @@
     <div id="main">
 		<div class="switch_tab click" id="login_tab"></div>
 		<div class="switch_tab click" id="register_tab"></div>
-		<form>	
+		<form id="login_form">	
 			<div class="login_ipt">
 				<label class="login_label" id="username_label" for="username_ipt"></label>
 				<input type="text" id="username_ipt"/>
@@ -27,7 +28,20 @@
 				<input type="password" id="password_ipt"/>
 				<label class="input_tips" id="password_tips"  for="password_ipt">your password</label>
 			</div>
-			<button class="click" id="loginBtn" href="javascript:void(0);"></button>
+			<button class="click" id="loginBtn" ></button>
+		</form>
+		<form id="register_form">	
+			<div class="login_ipt">
+				<label class="login_label" id="username_label" for="username_ipt"></label>
+				<input type="text" id="username_ipt"/>
+				<label class="input_tips" id="username_tips"  for="username_ipt">username or your email</label>
+			</div>
+			<div class="login_ipt">
+				<label class="login_label" id="password_label" for="password_ipt"></label>
+				<input type="password" id="password_ipt"/>
+				<label class="input_tips" id="password_tips"  for="password_ipt">your password</label>
+			</div>
+			<button class="click" id="loginBtn"></button>
 		</form>
 	</div>
   </body>
